@@ -3,29 +3,38 @@ body{
 }
 table{
     margin:110px 50px 30px 500px;
-    background-color: rgb(47, 70, 47);
+    background-color:#16131c;
     
 }
 table,td {
-        border: 3px solid black;
+        border: 6px solid black;
         text-align: center;
+  
      }
 td{
     height:60px;
     width:60px;
+    font-size:20px;
+  border-radius: 10px;
+  background-color:#df9075;
+  
     
 }
 #calc{
  width: 250px;
 border: 3px solid black;
 border-radius: 3px;
-padding: 20px;
+padding: 40px;
 margin: auto;
+ border-radius: 10px;
+  background-color:#JGJFDJF
 }
 button{
     font-size:20px;
     height:40px;
-    width:40px;
+    width:50px;
+  border-radius:7px;
+  background-color:#203f75;
 }
 
 
@@ -34,21 +43,22 @@ table{
     margin-left:160px;
 }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 100px) {
 table{
     margin-right:0px;
     margin-left:180px;
 }
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 100px) {
 table{
     
     margin-left:190px;
 }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 100px) {
     table{
         
         margin-left:190px;
     }
     }
+    
